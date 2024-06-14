@@ -20,6 +20,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req: Request, res: Response) => {
+    res.json({ message: "Upload working fine on port 3000" });     
+})
+
 app.post("/deploy", async (req: Request, res: Response) => {
     try {
         const { repoUrl } = req.body;
