@@ -7,8 +7,9 @@ import path from "path";
 import { uploadFile } from "./aws";
 import { createClient } from "redis";
 
-const publisher = createClient();
-const subscriber = createClient();
+const redisUrl = process.env.REDIS_URL;
+const publisher = createClient({ url: redisUrl });
+const subscriber = createClient({ url: redisUrl });
 
 (async () => {
     await publisher.connect();
