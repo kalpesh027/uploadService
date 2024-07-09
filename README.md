@@ -14,7 +14,7 @@ This project provides an automated system for deploying GitHub repositories to a
 
 ## Architecture
 
-#### 1. Upload Service
+#### 1. <a href="[url](https://github.com/kalpesh027/uploadService)"> Upload Service</a>
 
  - Endpoint: `/deploy`
 
@@ -69,3 +69,7 @@ This project provides an automated system for deploying GitHub repositories to a
 - The Request Service handles requests to serve the built files.
 - It constructs the file path based on the unique ID and file path provided in the URL.
 - The service retrieves the file from Cloudflare R2 and serves it to the client.
+
+## Author
+Kalpesh Ghodekar
+[Instagram](https://www.instagram.com/kalpesh__027/)  |  [LinkedIn](https://www.linkedin.com/in/kalpesh-ghodekar/) | [Twitter](https://twitter.com/kalpesh__027)
