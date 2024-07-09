@@ -14,7 +14,7 @@ This project provides an automated system for deploying GitHub repositories to a
 
 ## Architecture
 
-#### 1. <a href="[url](https://github.com/kalpesh027/uploadService)"> Upload Service</a>
+#### 1. [Upload Service](https://github.com/kalpesh027/uploadService.git)
 
  - Endpoint: `/deploy`
 
