@@ -24,7 +24,7 @@ This project provides an automated system for deploying GitHub repositories to a
 - Ports: 3000
 
 
-#### 2. Deploy Service
+#### 2. [Deploy Service ](https://github.com/kalpesh027/deployService.git)                                                         
 
 - Description: Listens for new deployment IDs, downloads the files from Cloudflare R2, builds the project, and uploads the built files back to Cloudflare R2.
 
@@ -32,7 +32,7 @@ This project provides an automated system for deploying GitHub repositories to a
 
 - Ports: 3000
 
-#### 3. Request Service
+#### 3. [Request Service](https://github.com/kalpesh027/requestHandler.git)                                            
 
 - Endpoint: `/:id/*`
 - Description: Serves the built files from Cloudflare R2 based on the deployment ID and file path.
